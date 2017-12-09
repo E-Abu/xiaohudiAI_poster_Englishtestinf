@@ -9,7 +9,7 @@ def send(title, link):
     mail_pass = "20899100627"  # 口令
 
     sender = 'hudi@zju.edu.cn'
-    receivers = ['hudi@zju.edu.cn']
+    receivers = ['hudi@zju.edu.cn','1246640191@qq.com','845220910@qq.com']
     message = MIMEText('22223关于英语机考的网页有更新哦～\n最新信息：' + title + '\n(' + link + ') \n'+
                        '要点这里确认所有信息哦\n(http://grs.zju.edu.cn/search.php?postflag=1&area=10001&kw_qbzc=%E6%9C%BA%E8%80%83)', \
                        'plain', 'utf-8')
